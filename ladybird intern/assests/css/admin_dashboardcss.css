@@ -1,0 +1,146 @@
+body {
+   /* cursor: url("Fish Aqua.png"), auto;*/
+            background-color: #f0f4f8; /* Lighter background for admin panel */
+            display: flex;
+            flex-direction: column; /* Stack content vertically */
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .admin-container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            max-width: 900px; /* Wider for tables */
+            width: 100%;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .admin-container h1 {
+            color: #28a745;
+            margin-bottom: 25px;
+            font-size: 2.5rem;
+        }
+        .admin-container h2 {
+            color: #333;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+        .message {
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            font-size: 0.9em;
+            text-align: center;
+        }
+        .success-message {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        .error-message {
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        .form-crud {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-bottom: 30px;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left;
+            padding: 20px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+        .form-crud label {
+            font-weight: 600;
+            margin-bottom: 5px;
+            display: block;
+        }
+        .form-crud input[type="text"],
+        .form-crud input[type="email"],
+        .form-crud input[type="password"],
+        .form-crud select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+            box-sizing: border-box; /* Ensure padding doesn't add to total width */
+        }
+        .form-crud button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background-color 0.3s ease;
+        }
+        .form-crud button:hover {
+            background-color: #0056b3;
+        }
+        .form-crud .cancel-btn {
+            background-color: #6c757d;
+            margin-left: 10px;
+        }
+        .form-crud .cancel-btn:hover {
+            background-color: #5a6268;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: 600;
+        }
+        .action-links a {
+            margin-right: 10px;
+            text-decoration: none;
+            color: #007bff;
+        }
+        .action-links a:hover {
+            text-decoration: underline;
+        }
+        .action-links .delete-btn {
+            color: #dc3545;
+        }
+        .action-links .delete-btn:hover {
+            color: #c82333;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #6c757d;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .back-link:hover {
+            background-color: #5a6268;
+        }
+        .flex-buttons {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 20px;
+        }
